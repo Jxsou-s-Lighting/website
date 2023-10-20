@@ -2,15 +2,7 @@
   "rewrites": [
     { "source": "/products", "destination": "/products.html" },
     { "source": "/support", "destination": "/support.html" },
-    { "source": "/about", "destination": "/about.html" }
-  ],
-  "routes": [
-    {
-      "src": "/fiverr",
-      "status": 301,
-      "headers": {
-        "Location": "https://fiverr.com"
-      }
-    }
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/fiverr", "destination": "https://fiverr.com" }
   ]
 }
