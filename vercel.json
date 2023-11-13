@@ -1,8 +1,13 @@
 {
   "rewrites": [
-    { "source": "/products", "destination": "/products.html" },
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/tutorials", "destination": "/tutorials.html" },
-    { "source": "/legal", "destination": "/legal.html" }
+    { "source": "/products", "destination": "/pages/products.html" },
+    { "source": "/about", "destination": "/pages/about.html" },
+    { "source": "/tutorials", "destination": "/pages/tutorials.html" },
+    { "source": "/legal", "destination": "/pages/legal.html" },
+    { "source": "/discord", "destination": "/pages/discord.html" },
+    { "source": "/roblox", "destination": "/pages/roblox.html" },
+    { "source": "/support", "destination": "/pages/support.html" },
+    { "source": "/hub", "destination": "/pages/hub.html" },
+    { "source": "/demo", "destination": "/pages/demo.html" }
   ]
 }
