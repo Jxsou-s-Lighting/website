@@ -1,10 +1,10 @@
 {
   "rewrites": [
-    { "source": "/discord", "destination": "https://discord.gg/EFrM9y99VQ" },
-    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
-    { "source": "/support", "destination": "https://discord.gg/EFrM9y99VQ" },
-    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
-    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
+    { "source": "/discord", "destination": "/pages/discord.html" },
+    { "source": "/roblox", "destination": "/pages/roblox.html" },
+    { "source": "/support", "destination": "/pages/support.html" },
+    { "source": "/hub", "destination": "/pages/hub.html" },
+    { "source": "/demo", "destination": "/pages/demo.html" },
     { "source": "/products", "destination": "/pages/products.html" },
     { "source": "/about", "destination": "/pages/about.html" },
     { "source": "/tutorials", "destination": "/pages/tutorials.html" },
