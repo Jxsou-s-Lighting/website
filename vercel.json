@@ -1,15 +1,16 @@
 {
   "rewrites": [
-    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
-    { "source": "/discord", "destination": "https://discord.gg/EFrM9y99VQ" },
-    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
-    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
-    { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou" },
-    { "source": "/support", "destination": "https://discord.gg/EFrM9y99VQ" },
     { "source": "/products", "destination": "/products.html" },
     { "source": "/about", "destination": "/about.html" },
     { "source": "/tutorials", "destination": "/tutorials.html" },
     { "source": "/legal", "destination": "/legal.html" }
   ],
-  "redirects": [{ "source": "/demo", "destination": "https://www.roblox.com/games/9475736225", "statusCode": 301 }]
+  "redirects": [
+    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
+    { "source": "/discord", "destination": "https://discord.gg/EFrM9y99VQ" },
+    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
+    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
+    { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou" },
+    { "source": "/support", "destination": "https://discord.gg/EFrM9y99VQ" }
+  ]
 }
