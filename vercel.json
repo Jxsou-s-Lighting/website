@@ -6,11 +6,11 @@
     { "source": "/legal", "destination": "/legal.html" }
   ],
   "redirects": [
-    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
-    { "source": "/discord", "destination": "https://discord.gg/EFrM9y99VQ" },
-    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
-    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
-    { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou" },
-    { "source": "/support", "destination": "https://discord.gg/EFrM9y99VQ" }
+    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225", "statusCode": 301 },
+    { "source": "/discord", "destination": "https://discord.gg/EFrM9y99VQ", "statusCode": 301 },
+    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884", "statusCode": 301 },
+    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376", "statusCode": 301 },
+    { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou", "statusCode": 301 },
+    { "source": "/support", "destination": "https://discord.gg/EFrM9y99VQ", "statusCode": 301 }
   ]
 }
