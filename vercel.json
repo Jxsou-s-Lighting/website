@@ -10,5 +10,6 @@
     { "source": "/about", "destination": "/about.html" },
     { "source": "/tutorials", "destination": "/tutorials.html" },
     { "source": "/legal", "destination": "/legal.html" }
-  ]
+  ],
+  "redirects": [{ "source": "/demo", "destination": "https://www.roblox.com/games/9475736225", "statusCode": 301 }]
 }
