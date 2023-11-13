@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/products", "destination": "/products.html" },
+    { "source": "/tutorials", "destination": "/tutorials.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/legal", "destination": "/legal.html" },
+    { "source": "/404", "destination": "/public/404.html" },
+    { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
+    { "source": "/discord", "destination": "https://discord.com/invite/EFrM9y99VQ" },
+    { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
+    { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
+    { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou" },
+    { "source": "/support", "destination": "https://discord.com/invite/EFrM9y99VQ" }
+  ]
+}
