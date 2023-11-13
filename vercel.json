@@ -9,7 +9,6 @@
     { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
     { "source": "/roblox", "destination": "https://www.roblox.com/groups/12484376" },
     { "source": "/youtube", "destination": "https://www.youtube.com/@Jxsou" },
-    { "source": "/support", "destination": "https://discord.com/invite/EFrM9y99VQ" },
-    { "source": "/(.*)", "destination": "/404.html" }
+    { "source": "/support", "destination": "https://discord.com/invite/EFrM9y99VQ" }
   ]
 }
