@@ -1,10 +1,10 @@
 {
   "rewrites": [
+    { "source": "/(.*)", "destination": "/404.html" },
     { "source": "/products", "destination": "/products.html" },
-    { "source": "/tutorials", "destination": "/tutorials.html" },
     { "source": "/about", "destination": "/about.html" },
+    { "source": "/tutorials", "destination": "/tutorials.html" },
     { "source": "/legal", "destination": "/legal.html" },
-    { "source": "/404", "destination": "/404.html" },
     { "source": "/demo", "destination": "https://www.roblox.com/games/9475736225" },
     { "source": "/discord", "destination": "https://discord.com/invite/EFrM9y99VQ" },
     { "source": "/hub", "destination": "https://www.roblox.com/games/9755675884" },
