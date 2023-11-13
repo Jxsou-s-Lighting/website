@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^roblox$ https://www.roblox.com [L,R=301]
