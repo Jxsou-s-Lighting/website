@@ -712,13 +712,6 @@ nav {
 
 /* Error */
 
-.background-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .error-section {
   background-color: rgb(5, 5, 5);
   border-radius: 5px;
@@ -758,12 +751,18 @@ nav {
 
 /* Terms */
 
+.terms-page {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
 .terms-section {
   background-color: rgb(5, 5, 5);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
   padding: 30px 40px;
-  width: 805px;
+  max-width: 805px;
 }
 
 .terms-headline {
@@ -852,7 +851,7 @@ nav {
     font-size: 30px;
   }
 
-  .about-page footer {
+  .footer {
     display: none;
   }
 }
@@ -958,7 +957,7 @@ nav {
     text-align: center;
   }
 
-  .terms-section {
+  .terms-page {
     margin: 0 25px;
   }
 
@@ -997,7 +996,13 @@ nav {
   .stats-section {
     flex-direction: column;
   }
+
   .about-headline {
     font-size: 50px;
+  }
+
+  .terms-page {
+    place-items: start;
+    margin-top: 75px;
   }
 }
