@@ -152,7 +152,7 @@ nav {
 
 .headline span::before {
   content: "";
-  right: -10px;
+  left: 100%;
   top: 50%;
   position: absolute;
   height: 55px;
@@ -831,7 +831,7 @@ nav {
   }
 
   .review-section {
-    margin: 10px 10px -175px 10px;
+    margin: -75px 10px -175px 10px;
   }
 
   .review {
