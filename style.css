@@ -146,32 +146,6 @@ nav {
   line-height: 55px;
 }
 
-.headline span {
-  position: relative;
-}
-
-.headline span::before {
-  content: "";
-  left: 100%;
-  top: 50%;
-  position: absolute;
-  height: 55px;
-  width: 4px;
-  background-color: rgb(27, 178, 255);
-  transform: translateY(-50%);
-  animation: blink 0.75s infinite;
-}
-
-.headline span.stop-blinking::before {
-  animation: none;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-
 .subheadline {
   margin: 30px 0;
   max-width: 700px;

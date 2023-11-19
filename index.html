@@ -12,8 +12,6 @@
     <title>Jxsou's Lighting</title>
     <link rel="icon" href="/images/icon.png" type="image/png" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="/typing.js" defer></script>
   </head>
   <body>
     <header>
@@ -35,7 +33,7 @@
     <main>
       <section class="hero-section">
         <div>
-          <p class="headline"><span></span><br />Roblox Lighting</p>
+          <p class="headline"><span class="auto-typing"></span><br />Roblox Lighting</p>
           <p class="subheadline">
             We provide the most affordable lighting products in the community, each designed to meet your needs with
             exceptional quality!
@@ -187,6 +185,16 @@
       </section>
     </footer>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-typing", {
+        strings: ["Affordable", "Quality"],
+        typeSpeed: 125,
+        backSpeed: 125,
+        loop: true,
+        backDelay: 1200,
+      });
+    </script>
     <script src="/menu.js"></script>
   </body>
 </html>
