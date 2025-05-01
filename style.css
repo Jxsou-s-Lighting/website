@@ -463,6 +463,7 @@ nav {
   border-radius: 5px;
   width: 405px;
   display: block;
+  background-color: black;
 }
 
 .product-buttons {
